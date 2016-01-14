@@ -1,1 +1,52 @@
 
+# Project:      Homework 2 (LeTempletonHW02Sec02.py)
+# Name:         James Templeton, Duong le
+# Date:         10/12/15
+# Description:  This program caputures order data from the user
+#               and outputs order costs
+
+def OrderReceipt():
+
+    # Initialize variables
+    strOrderlist = "You have purchased: "
+    fltSubtotal = 0
+    fltWeightTotal = 0
+    
+    # Capture description, price, quantity and weight of three separate
+    # items from the user
+    for item in range (3):
+ 
+        strName = str(input(" Enter the name of the item: "))
+
+        strOrderlist = strOrderlist + strName + ", "
+    
+        fltPrice= float(input(" Enter the price of the item: "))
+
+        intQuantity= int(input(" Enter the number of item: "))
+
+        fltSubtotal += fltPrice * intQuantity
+
+        fltWeight= float(input(" Enter the weight of the item: "))
+        
+        fltWeightTotal += fltWeight * intQuantity
+
+        print()
+
+    # Calculate the shipping cost of the order
+    fltShippingcost = fltWeightTotal * 0.25 + 5
+
+    # Calculate the tax of the order
+    fltTax = 0.085 * (fltSubtotal + fltShippingcost)
+    
+    # Calculate total order cost
+    fltTotalcost = fltShippingcost + fltTax + fltSubtotal
+    print()
+    print(strOrderlist)
+    print("The subtotal is: ${0:0.2f}".format(fltSubtotal))
+    print("Shipping and Handling costs are: ${0:0.2f}".format(fltShippingcost))
+    print("The Tax is: ${0:0.2f}".format(fltTax))
+    print("The Total is: ${0:0.2f}".format(fltTotalcost))
+    
+OrderReceipt()
+
+
