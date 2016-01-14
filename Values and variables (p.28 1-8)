@@ -39,18 +39,5 @@ spam
 8. Why is eggs a valid variable name while 100 is invalid?
 Because variable names cannot begin with a number. 
 
-9. What three functions can be used to get the integer, floating-point number, or string version of a value?
-str()
-int()
-float()
 
 
-10. Why does this expression cause an error? How can you fix it?
-'I have eaten ' + 99 + ' burritos.'
-This expression causes and error because in this line 'I have eaten' and 'burritos' are strings, while 99 is treated as integer. In order to fix the error and print 'I have eaten 99 burritos.', 99 needs '' around it to treat it as a string.    
-
-
-Extra credit: Search online for the Python documentation for the len() function. It will be on a web page titled “Built-in Functions.” Skim the list of other functions Python has, look up what the round() function does, and experiment with it in the interactive shell.
-
->>> round(3.33333333333, 10)
-3.333333333
