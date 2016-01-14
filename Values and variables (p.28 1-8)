@@ -13,31 +13,29 @@ spam = variable
 'spam' = string
 
 3. Name three data types.
-Three data types are: string, integer, floating point.
+ string, integer, floating point.
 
-4. 
-What is an expression made up of? What do all expressions do?
-An expression is made up of 
+4. What is an expression made up of? What do all expressions do?
+An expression is made up of values and operators that evaluate to a value.
 
 5. This chapter introduced assignment statements, like spam = 10. 
 What is the difference between an expression and a statement?
-
+Statement assigns value to a variable. expression modifies values.
 
 6. What does the variable bacon contain after the following code runs?
-
-bacon = 20
 bacon + 1
+bacon = 20
 
 7. What should the following two expressions evaluate to?
-
 'spam' + 'spamspam' = spamspamspam
 'spam' * 3 = 
 spam
 spam
 spam
+'spam' + "spamspam" and 'spam' * 3 would both evaluate to spamspamspam in diffrent way.
 
 8. Why is eggs a valid variable name while 100 is invalid?
-Because variable names cannot begin with a number. 
+Because variable names cannot begin with a number. Eggs can assign a variable to 100
 
 
 
