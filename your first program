@@ -1,0 +1,13 @@
+#this program is going to run something
+print('What is your name?')
+
+myName = input()
+if myName == 'Superman':
+    print('You are Superman.')
+
+elif myName == 'Aquaman':
+   print('Go back to the ocean.')
+elif myName == 'Green Lantern':
+   print('Go get a new ring!')
+else:
+   print('Please try again')
