@@ -1,5 +1,5 @@
 1. Why are functions advantageous to have in your programs?
-
+They make your code shorter, more efficient and easier to debug
 2. When does the code in a function execute: when the function is defined or when the function is called?
 
 3. What statement creates a function?
